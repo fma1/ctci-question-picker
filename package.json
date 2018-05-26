@@ -1,0 +1,22 @@
+{
+  "name": "ctci-question-picker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fma1/ctci-question-picker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fma1/ctci-question-picker/issues"
+  },
+  "homepage": "https://github.com/fma1/ctci-question-picker#readme",
+  "dependencies": {
+    "command-line-args": "^5.0.2"
+  }
+}
