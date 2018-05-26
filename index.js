@@ -16,6 +16,11 @@ const set = new Set();
  */
 const getRandomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
+if (options.numberOfProblems > problems.reduce((prev, curr) => prev + curr, 0)) {
+  console.error('Number of Problems exceeds number of problems in book');
+  process.exit(1);
+}
+
 for (let i = 0; i < options.numberOfProblems; i++) {
   const newProb = [];
 
